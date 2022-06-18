@@ -1,0 +1,51 @@
+git commands
+
+1. what is git?
+- Git ( / t /) is a software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different systems).
+
+2.What is repository?
+-Repositories in GIT contain a collection of files of various different versions of a Project. These files are imported from the repository into the local server of the user for further updations and modifications in the content of the file. A VCS or the Version Control System is used to create these versions and store them in a specific place termed as a repository. The process of copying the content from an existing Git Repository with the help of various Git Tools is termed as cloning. Once the cloning process is done, the user gets the complete repository on his local machine. Git by default assumes the work to be done on the repository is as a user, once the cloning is done.
+Users can also create a new repository or delete an existing repository. To delete a repository, the simpler way is to just delete the folder containing the repository.
+Repositories can be divided into two types based on the usage on a server. These are:
+
+Bare Repositories: These repositories are used to share the changes that are done by different developers. A user is not allowed to modify this repository or create a new version for this repository based on the modifications done.
+Non-bare Repositories: Non-bare repositories are user-friendly and hence allow the user to create new modifications of files and also create new versions for the repositories. Cloning process by default creates a non-bare repository if any parameter is not specified during the clone operation.
+
+3.What is git Bash?
+- Git Bash is an application that provides Git command line experience on the Operating System. It is a command-line shell for enabling git with the command line in the system. A shell is a terminal application used to interface with an operating system through written commands. Git Bash is a package that installs Bash, some common bash utilities, and Git on a Windows operating system. In Git Bash the user interacts with the repository and git elements through the commands.
+
+4. what is git Hib?
+- GitHub is a website and cloud-based service that helps developers store and manage their code, as well as track and control changes to their code.
+
+5. What i branch in git ?
+- Branches allow you to work on different parts of a project without impacting the main branch. When the work is complete, a branch can be merged with the main project.
+
+6. What is commit in git?
+- It is used to record the changes in the repository. It is the next command after the git add. Every commit contains the index data and the commit message. Every commit forms a parent-child relationship. When we add a file in Git, it will take place in the staging area. A commit command is used to fetch updates from the staging area to the repository.
+
+The staging and committing are co-related to each other. Staging allows us to continue in making changes to the repository, and when we want to share these changes to the version control system, committing allows us to record these changes.
+
+Commits are the snapshots of the project. Every commit is recorded in the master branch of the repository. We can recall the commits or revert it to the older version. Two different commits will never overwrite because each commit has its own commit-id. This commit-id is a cryptographic number created by SHA (Secure Hash Algorithm) algorithm.
+
+7.What is version control system?
+- Version control systems are a category of software tools that helps in recording changes made to files by keeping a track of modifications done in the code. 
+
+
+Git commands
+
+1) Git clone- The git clone is a git command, which creates a clone/copy of an existing repository into a new directory.
+2) Git in it- the git init command is an incredibly easy way to create new version-controlled projects.
+3) git add filename- The git add is a command, which adds changes in the working directory to the staging area.
+4)git add *- used to add specify thew files likr *.java/*.txt the mentioned files are going to get added by commmanding.
+5) git add. - command used to add all files saved with . so it made it easy to write all file names to add.
+6) git status- gives the status of the files like wether they have been tracked or not .
+7) git diff - command allow us to check the previous file and the changes done to which line  or the changes done before can bee shown by using that comand.
+8) git commit -m"meaning full message"- gives the finalisation or the changes done /after the commit command all changes done have been saved.
+9) git push origin branch name-helps to push the file from the local computer.
+ to the network or the git hub.
+10) git pill origin branch name - command helps to pull files from the github server to the local computer for further work.
+11) git fetch --all- command help us to fetch all the files in the hub.
+12) git merge branch name - helps to merge the diff files created by diff users into single branch/file.
+13) git config--list - The git config --list command is used to print all of these different types or levels of configurations in the command-line interface.
+14 git remote -V
+15) git config --global user.email johndoe@example.co- whick help that who changes the file are has infor mation about the id of the person who committed the file.
